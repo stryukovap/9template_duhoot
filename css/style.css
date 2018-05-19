@@ -174,25 +174,22 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 30px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   position: relative;
 }
-/* line 171, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 .form-search__select--target {
   width: 48%;
 }
-/* line 175, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 .form-search__select--country {
   width: 48%;
 }
-/* line 178, ../scss/style.scss */
-.form-search__select::before {
+/* line 174, ../scss/style.scss */
+.form-search__select::after {
   content: "";
   display: block;
   position: absolute;
@@ -203,7 +200,7 @@ body {
   top: 0;
   left: 0;
 }
-/* line 190, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 .form-search__description {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -220,11 +217,11 @@ body {
   margin-top: 23px;
   color: #ffffff;
 }
-/* line 205, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 .form-search__description::placeholder {
   color: #ffffff;
 }
-/* line 209, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .form-search__button {
   display: block;
   border: none;

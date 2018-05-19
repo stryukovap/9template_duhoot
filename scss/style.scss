@@ -160,22 +160,18 @@ body {
         letter-spacing: normal;
         text-align: left;
         color: #ffffff;
-        padding-left: 30px;
-        padding-right: 30px; // padding-right: 140px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        -webkit-appearance: none; //убираем стрелку
+        padding: 15px 30px;
+        -webkit-appearance: none; //delete arrow
         -moz-appearance: none;
         appearance: none;
         position: relative;
         &--target {
-            // margin-left: 29px;
             width: 48%;
         }
         &--country {
             width: 48%;
         }
-        &::before {
+        &::after {//insert arrow
             content: "";
             display: block;
             position: absolute;
