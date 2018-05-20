@@ -127,7 +127,7 @@ body {
   z-index: 1;
 }
 
-/* line 229, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .card {
   margin-top: 32px;
   display: flex;
@@ -135,7 +135,7 @@ body {
   align-items: center;
   position: relative;
 }
-/* line 235, ../scss/style.scss */
+/* line 234, ../scss/style.scss */
 .card__img {
   width: 100%;
   height: 140px;
@@ -146,7 +146,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 244, ../scss/style.scss */
+/* line 243, ../scss/style.scss */
 .card__img::before {
   content: "";
   display: block;
@@ -165,7 +165,7 @@ body {
   background-position: center center;
   background-size: 30px 24px;
 }
-/* line 263, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 .card__price {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -184,7 +184,7 @@ body {
   right: 8px;
   z-index: 2;
 }
-/* line 281, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 .card__description {
   margin: 0;
   margin-top: 33px;
@@ -200,7 +200,7 @@ body {
   text-align: center;
   color: #566375;
 }
-/* line 296, ../scss/style.scss */
+/* line 297, ../scss/style.scss */
 .card__zzz {
   margin-top: 19px;
   text-transform: uppercase;
@@ -214,7 +214,7 @@ body {
   text-align: center;
   color: #1baf5d;
 }
-/* line 309, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 .card__raiting {
   margin-top: 6px;
   font-family: 'Montserrat', sans-serif;
@@ -227,12 +227,47 @@ body {
   text-align: center;
   color: #96a6a7;
 }
+/* line 322, ../scss/style.scss */
+.card__hover {
+  position: absolute;
+  opacity: 0.7;
+  background-color: #1baf5d;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+/* line 330, ../scss/style.scss */
+.card__search {
+  opacity: 0.7;
+  background-color: #1baf5d;
+  border: solid 2px #ffffff;
+  border-radius: 30px;
+  padding: 10px 19px 10px 38px;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: block;
+}
+/* line 339, ../scss/style.scss */
+.card__search::placeholder {
+  color: #ffffff;
+}
+/* line 343, ../scss/style.scss */
+.card__link {
+  font-size: 0;
+  background-image: url(../img/comments.svg);
+  width: 25px;
+  height: 20px;
+  background-position: center center;
+  position: absolute;
+  top: 76px;
+  right: 38px;
+}
 
-/* line 323, ../scss/style.scss */
+/* line 355, ../scss/style.scss */
 .card-test {
   margin-top: 32px;
 }
-/* line 325, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 .card-test__img {
   width: 100%;
   height: 120px;
@@ -243,7 +278,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 334, ../scss/style.scss */
+/* line 366, ../scss/style.scss */
 .card-test__img::before {
   content: "";
   display: block;
@@ -261,12 +296,12 @@ body {
   background-position: center center;
   background-size: 30px 24px;
 }
-/* line 352, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .card-test__img-description {
   padding-left: 98px;
   padding-top: 75px;
 }
-/* line 357, ../scss/style.scss */
+/* line 388, ../scss/style.scss */
 .card-test__zzz {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -280,7 +315,13 @@ body {
   color: #ffffff;
   text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
 }
-/* line 370, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
+.card-test__raiting--current-author {
+  padding-left: 98px;
+  margin-top: 17px;
+  display: block;
+}
+/* line 408, ../scss/style.scss */
 .card-test__author {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -295,7 +336,7 @@ body {
   padding-left: 98px;
   position: relative;
 }
-/* line 383, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 .card-test__author::before {
   content: "";
   display: block;
@@ -311,7 +352,7 @@ body {
   background-position: center center;
   background-size: contain;
 }
-/* line 399, ../scss/style.scss */
+/* line 437, ../scss/style.scss */
 .card-test__description {
   padding-left: 98px;
   font-family: 'Montserrat', sans-serif;
@@ -325,7 +366,7 @@ body {
   color: #566375;
   display: block;
 }
-/* line 412, ../scss/style.scss */
+/* line 450, ../scss/style.scss */
 .card-test__link {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -339,7 +380,7 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
-/* line 424, ../scss/style.scss */
+/* line 462, ../scss/style.scss */
 .card-test__link:hover {
   text-decoration: underline;
 }
