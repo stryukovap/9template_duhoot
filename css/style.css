@@ -127,122 +127,6 @@ body {
   z-index: 1;
 }
 
-/* line 122, ../scss/style.scss */
-.form-search {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 2;
-}
-/* line 128, ../scss/style.scss */
-.form-search__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 501px;
-}
-/* line 134, ../scss/style.scss */
-.form-search__title {
-  display: block;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-  text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
-  margin-top: 58px;
-}
-/* line 148, ../scss/style.scss */
-.form-search__select {
-  display: block;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-  padding: 15px 30px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  position: relative;
-}
-/* line 168, ../scss/style.scss */
-.form-search__select--target {
-  width: 48%;
-}
-/* line 171, ../scss/style.scss */
-.form-search__select--country {
-  width: 48%;
-}
-/* line 174, ../scss/style.scss */
-.form-search__select::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-image: url(../img/arrow_18x15.png);
-  background-size: contain;
-  width: 14px;
-  height: 9px;
-  top: 0;
-  left: 0;
-}
-/* line 187, ../scss/style.scss */
-.form-search__description {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: left;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  padding: 15px 236px 15px 30px;
-  margin-top: 23px;
-  color: #ffffff;
-}
-/* line 202, ../scss/style.scss */
-.form-search__description::placeholder {
-  color: #ffffff;
-}
-/* line 206, ../scss/style.scss */
-.form-search__button {
-  display: block;
-  border: none;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.67;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-  text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
-  background-color: #e94e38;
-  border-radius: 50px;
-  margin-top: 29px;
-  margin-bottom: 40px;
-  box-shadow: 0px 2px 0 0 #c1412e;
-  padding: 5px 32px;
-}
-
 /* line 229, ../scss/style.scss */
 .card {
   margin-top: 32px;
@@ -344,11 +228,11 @@ body {
   color: #96a6a7;
 }
 
-/* line 322, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 .card-test {
   margin-top: 32px;
 }
-/* line 324, ../scss/style.scss */
+/* line 325, ../scss/style.scss */
 .card-test__img {
   width: 100%;
   height: 120px;
@@ -359,7 +243,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 333, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 .card-test__img::before {
   content: "";
   display: block;
@@ -377,8 +261,14 @@ body {
   background-position: center center;
   background-size: 30px 24px;
 }
-/* line 350, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
+.card-test__img-description {
+  padding-left: 98px;
+  padding-top: 75px;
+}
+/* line 357, ../scss/style.scss */
 .card-test__zzz {
+  text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -390,7 +280,7 @@ body {
   color: #ffffff;
   text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
 }
-/* line 362, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 .card-test__author {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -402,9 +292,28 @@ body {
   text-align: left;
   color: #566375;
   display: block;
+  padding-left: 98px;
+  position: relative;
 }
-/* line 374, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
+.card-test__author::before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  border-radius: 50%;
+  border: solid 3px #e2dee0;
+  top: 16px;
+  left: 20px;
+  background-image: url(../img/Ellipse1_61x61.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+/* line 399, ../scss/style.scss */
 .card-test__description {
+  padding-left: 98px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -416,7 +325,7 @@ body {
   color: #566375;
   display: block;
 }
-/* line 386, ../scss/style.scss */
+/* line 412, ../scss/style.scss */
 .card-test__link {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -430,7 +339,7 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
-/* line 398, ../scss/style.scss */
+/* line 424, ../scss/style.scss */
 .card-test__link:hover {
   text-decoration: underline;
 }
