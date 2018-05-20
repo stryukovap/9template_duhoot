@@ -51,8 +51,8 @@
             <form action="#" class="form-search">
                 <h2 class="form-search__title">What are you looking for?</h2>
                 <div class="form-search__wrapper">
-                    <!-- <select class="js-example-basic-single form-search__select form-search__select--country" name="#" id="#"> -->
-                    <select class="js-example-basic-single" name="#" id="#">
+                    <select class="form-search__select form-search__select--country" name="#" id="#">
+                        <!-- <select class="js-example-basic-single" name="#" id="#"> -->
                         <option value="Dubai">Dubai</option>
                     </select>
                     <select class="form-search__select form-search__select--target" name="#" id="##">
@@ -64,11 +64,51 @@
             </form>
         </div>
     </header>
-    <script>
-        $(document).ready(function () {
-            $('.js-example-basic-single').select2();
-        });
-    </script>
+    <main>
+        <div class="filter">
+            <div class="filter-links">
+                <a href="#" class="filter__link filter__link--active">Recommended</a>
+                <a href="#" class="filter__link">latest</a>
+                <a href="#" class="filter__link">Highlights</a>
+            </div>
+            <div class="filter-country">
+                <select name="1" id="1" class="filter-country__select">
+                    <option value="Dubai">Dubai</option>
+                </select>
+                <button class="filter-select__button">Hide map</button>
+            </div>
+            <div class="filter-target">
+                <span class="filter-terget__img">1</span>
+                <span class="filter-terget__img">2</span>
+                <span class="filter-terget__img">3</span>
+                <span class="filter-terget__img">4</span>
+                <span class="filter-terget__img">5</span>
+            </div>
+        </div>
+        <div class="cards container row col-12">
+            <div class="col-12 col-md-4 card__small">
+                <img class="card__img" src="img/pic1_270x180.jpg" alt="house">
+                <span class="card__price">$2.990</span>
+                <p class="card__description">2 bedroom house for rent in Dubai</p>
+                <span class="card__zzz">Vision agency</span>
+                <span class="card__raiting">(365)</span>
+            </div>
+            <div class="col-12 col-md-4 card__small">
+                <img class="card__img" src="img/pic1_270x180.jpg" alt="house">
+                <span class="card__price">$2.990</span>
+                <p class="card__description">2 bedroom house for rent in Dubai</p>
+                <span class="card__zzz">Vision agency</span>
+                <span class="card__raiting">(365)</span>
+            </div>
+            <div class="col-12 col-md-4 card__small">
+                <img class="card__img" src="img/pic1_270x180.jpg" alt="house">
+                <span class="card__price">$2.990</span>
+                <p class="card__description">2 bedroom house for rent in Dubai</p>
+                <span class="card__zzz">Vision agency</span>
+                <span class="card__raiting">(365)</span>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
