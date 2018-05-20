@@ -1,14 +1,15 @@
 /* line 2, ../scss/style.scss */
 body {
   margin: 0;
+  background-color: #f3f1f2;
 }
 
-/* line 6, ../scss/style.scss */
+/* line 7, ../scss/style.scss */
 .container {
   margin: 0 auto;
 }
 
-/* line 11, ../scss/style.scss */
+/* line 12, ../scss/style.scss */
 .header-wrapper {
   display: flex;
   justify-content: center;
@@ -16,18 +17,18 @@ body {
   padding: 15px 0;
 }
 
-/* line 19, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 .logo__img {
   width: 154px;
   height: 45px;
   display: block;
 }
 
-/* line 26, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 .main-nav {
   margin-left: 100px;
 }
-/* line 28, ../scss/style.scss */
+/* line 29, ../scss/style.scss */
 .main-nav__list {
   margin: 0;
   padding: 0;
@@ -35,13 +36,13 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-/* line 35, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 .main-nav__item {
   margin: 0;
   list-style: none;
   margin-right: 20px;
 }
-/* line 40, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 .main-nav__link {
   text-transform: uppercase;
   text-decoration: none;
@@ -51,29 +52,29 @@ body {
   line-height: 24px;
   font-weight: 500;
 }
-/* line 48, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 .main-nav__link:hover {
   color: #e94e38;
 }
 
-/* line 54, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
 .search {
   background-color: #e2dee0;
   padding: 0 30px;
 }
-/* line 57, ../scss/style.scss */
+/* line 58, ../scss/style.scss */
 .search__img {
   width: 23px;
   height: 23px;
   fill: #fff;
   display: block;
 }
-/* line 62, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .search__img:hover {
   fill: #e94e38;
 }
 
-/* line 69, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .login__link {
   text-transform: uppercase;
   text-decoration: none;
@@ -87,7 +88,7 @@ body {
   padding-left: 70px;
   position: relative;
 }
-/* line 81, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 .login__link::before {
   content: "";
   display: block;
@@ -100,7 +101,7 @@ body {
   left: 40px;
 }
 
-/* line 96, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .form__wrapper {
   min-height: 300px;
   background-image: url(../img/header_1280x449.png);
@@ -109,7 +110,7 @@ body {
   background-position: center center;
   position: relative;
 }
-/* line 103, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .form__wrapper::before {
   content: "";
   display: block;
@@ -127,15 +128,16 @@ body {
   z-index: 1;
 }
 
-/* line 228, ../scss/style.scss */
+/* line 229, ../scss/style.scss */
 .card {
   margin-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: #fff;
 }
-/* line 234, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 .card__img {
   width: 100%;
   height: 140px;
@@ -146,7 +148,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 243, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .card__img::before {
   content: "";
   display: block;
@@ -165,7 +167,7 @@ body {
   background-position: center center;
   background-size: 30px 24px;
 }
-/* line 264, ../scss/style.scss */
+/* line 266, ../scss/style.scss */
 .card__price {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -184,7 +186,7 @@ body {
   right: 8px;
   z-index: 2;
 }
-/* line 282, ../scss/style.scss */
+/* line 284, ../scss/style.scss */
 .card__description {
   margin: 0;
   margin-top: 33px;
@@ -200,7 +202,7 @@ body {
   text-align: center;
   color: #566375;
 }
-/* line 297, ../scss/style.scss */
+/* line 299, ../scss/style.scss */
 .card__zzz {
   margin-top: 19px;
   text-transform: uppercase;
@@ -214,7 +216,7 @@ body {
   text-align: center;
   color: #1baf5d;
 }
-/* line 310, ../scss/style.scss */
+/* line 312, ../scss/style.scss */
 .card__raiting {
   margin-top: 6px;
   font-family: 'Montserrat', sans-serif;
@@ -227,7 +229,7 @@ body {
   text-align: center;
   color: #96a6a7;
 }
-/* line 322, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 .card__hover {
   position: absolute;
   opacity: 0.7;
@@ -236,7 +238,7 @@ body {
   height: 100%;
   width: 100%;
 }
-/* line 330, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 .card__search {
   opacity: 0.7;
   background-color: #1baf5d;
@@ -247,11 +249,11 @@ body {
   margin-top: 25px;
   display: block;
 }
-/* line 339, ../scss/style.scss */
+/* line 341, ../scss/style.scss */
 .card__search::placeholder {
   color: #ffffff;
 }
-/* line 343, ../scss/style.scss */
+/* line 345, ../scss/style.scss */
 .card__link {
   font-size: 0;
   background-image: url(../img/comments.svg);
@@ -263,11 +265,12 @@ body {
   right: 38px;
 }
 
-/* line 355, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 .card-test {
   margin-top: 32px;
+  background-color: #fff;
 }
-/* line 357, ../scss/style.scss */
+/* line 360, ../scss/style.scss */
 .card-test__img {
   width: 100%;
   height: 120px;
@@ -278,7 +281,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 366, ../scss/style.scss */
+/* line 369, ../scss/style.scss */
 .card-test__img::before {
   content: "";
   display: block;
@@ -296,12 +299,12 @@ body {
   background-position: center center;
   background-size: 30px 24px;
 }
-/* line 384, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 .card-test__img-description {
   padding-left: 98px;
   padding-top: 75px;
 }
-/* line 388, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 .card-test__zzz {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -315,13 +318,13 @@ body {
   color: #ffffff;
   text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
 }
-/* line 402, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
 .card-test__raiting--current-author {
   padding-left: 98px;
   margin-top: 17px;
   display: block;
 }
-/* line 408, ../scss/style.scss */
+/* line 411, ../scss/style.scss */
 .card-test__author {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -336,7 +339,7 @@ body {
   padding-left: 98px;
   position: relative;
 }
-/* line 421, ../scss/style.scss */
+/* line 424, ../scss/style.scss */
 .card-test__author::before {
   content: "";
   display: block;
@@ -352,7 +355,7 @@ body {
   background-position: center center;
   background-size: contain;
 }
-/* line 437, ../scss/style.scss */
+/* line 440, ../scss/style.scss */
 .card-test__description {
   padding-left: 98px;
   font-family: 'Montserrat', sans-serif;
@@ -366,7 +369,7 @@ body {
   color: #566375;
   display: block;
 }
-/* line 450, ../scss/style.scss */
+/* line 453, ../scss/style.scss */
 .card-test__link {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -380,7 +383,7 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
-/* line 462, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .card-test__link:hover {
   text-decoration: underline;
 }
