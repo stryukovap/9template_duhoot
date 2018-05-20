@@ -344,7 +344,11 @@ body {
   color: #96a6a7;
 }
 
-/* line 323, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
+.card-test {
+  margin-top: 32px;
+}
+/* line 324, ../scss/style.scss */
 .card-test__img {
   width: 100%;
   height: 120px;
@@ -355,7 +359,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 332, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 .card-test__img::before {
   content: "";
   display: block;
@@ -373,7 +377,7 @@ body {
   background-position: center center;
   background-size: 30px 24px;
 }
-/* line 349, ../scss/style.scss */
+/* line 350, ../scss/style.scss */
 .card-test__zzz {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -386,7 +390,7 @@ body {
   color: #ffffff;
   text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
 }
-/* line 361, ../scss/style.scss */
+/* line 362, ../scss/style.scss */
 .card-test__author {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -399,7 +403,7 @@ body {
   color: #566375;
   display: block;
 }
-/* line 373, ../scss/style.scss */
+/* line 374, ../scss/style.scss */
 .card-test__description {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -412,7 +416,7 @@ body {
   color: #566375;
   display: block;
 }
-/* line 385, ../scss/style.scss */
+/* line 386, ../scss/style.scss */
 .card-test__link {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -426,7 +430,7 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
-/* line 397, ../scss/style.scss */
+/* line 398, ../scss/style.scss */
 .card-test__link:hover {
   text-decoration: underline;
 }
