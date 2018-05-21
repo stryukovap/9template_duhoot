@@ -245,7 +245,7 @@ body {
         &:hover .card__hover {
             display: block;
         }
-        &-hov:hover .card__price {
+        &:hover .card__price {
             display: none;
         }
         &::before {
@@ -301,7 +301,7 @@ body {
         text-align: center;
         color: #566375;
     }
-    &__zzz {
+    &__location {
         margin-top: 19px;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
@@ -395,7 +395,7 @@ body {
         padding-left: 98px;
         padding-top: 75px;
     }
-    &__zzz {
+    &__location {
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         font-size: 18px;

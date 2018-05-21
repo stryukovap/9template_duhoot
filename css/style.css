@@ -153,7 +153,7 @@ body {
   display: block;
 }
 /* line 248, ../scss/style.scss */
-.card__img-hov:hover .card__price {
+.card__img:hover .card__price {
   display: none;
 }
 /* line 251, ../scss/style.scss */
@@ -212,7 +212,7 @@ body {
   color: #566375;
 }
 /* line 304, ../scss/style.scss */
-.card__zzz {
+.card__location {
   margin-top: 19px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -316,7 +316,7 @@ body {
   padding-top: 75px;
 }
 /* line 398, ../scss/style.scss */
-.card-test__zzz {
+.card-test__location {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
