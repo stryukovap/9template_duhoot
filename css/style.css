@@ -567,7 +567,7 @@ body {
 /* line 620, ../scss/style.scss */
 .load-more {
   text-align: center;
-  border-bottom: 4px solid #e2dee0;
+  border-bottom: 2px solid #e2dee0;
 }
 /* line 623, ../scss/style.scss */
 .load-more__link {
@@ -621,7 +621,7 @@ body {
   color: #96a6a7;
 }
 
-/* line 671, ../scss/style.scss */
+/* line 672, ../scss/style.scss */
 .icons {
   margin-top: 70px;
   display: flex;
@@ -630,13 +630,16 @@ body {
   align-items: center;
 }
 
-/* line 678, ../scss/style.scss */
+/* line 680, ../scss/style.scss */
 .icon {
   height: 100px;
   width: 100px;
-  background-color: #1baf5d;
-  border: solid 2px #1baf5d;
+  border: solid 2px #9dacad;
   border-radius: 50%;
+}
+/* line 685, ../scss/style.scss */
+.icon:hover {
+  border: solid 2px #1baf5d;
 }
 
 /*# sourceMappingURL=style.css.map */

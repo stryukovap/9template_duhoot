@@ -619,7 +619,7 @@ body {
 
 .load-more {
 	text-align: center;
-	border-bottom: 4px solid #e2dee0;
+	border-bottom: 2px solid #e2dee0;
 	&__link {
 		padding-top: 41px;
 		padding-bottom: 35px;
@@ -668,18 +668,21 @@ body {
 		color: #96a6a7;
 	}
 }
-.icons{
+
+.icons {
 	margin-top: 70px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	align-items: center;
 }
+
 .icon {
 	height: 100px;
 	width: 100px;
-	background-color: #1baf5d;
-	border: solid 2px #1baf5d;
+	border: solid 2px #9dacad;
 	border-radius: 50%;
-
+	&:hover {
+		border: solid 2px #1baf5d;
+	}
 }
