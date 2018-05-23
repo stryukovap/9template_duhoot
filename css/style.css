@@ -746,10 +746,14 @@ body {
 }
 /* line 781, ../scss/style.scss */
 .footer__form {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
   text-align: center;
 }
 /* line 785, ../scss/style.scss */
+.footer__links {
+  margin-top: 42px;
+}
+/* line 788, ../scss/style.scss */
 .footer__list-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -760,19 +764,29 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
 }
-/* line 796, ../scss/style.scss */
+/* line 802, ../scss/style.scss */
 .footer__list {
   margin: 0;
   padding: 0;
+  margin-top: 25px;
+  padding-bottom: 64px;
 }
-/* line 800, ../scss/style.scss */
+/* line 808, ../scss/style.scss */
 .footer__item {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 805, ../scss/style.scss */
+/* line 812, ../scss/style.scss */
+.footer__item--social {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 817, ../scss/style.scss */
 .footer__link {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -785,12 +799,61 @@ body {
   color: #c0bebc;
   text-decoration: none;
 }
-/* line 816, ../scss/style.scss */
+/* line 828, ../scss/style.scss */
 .footer__link:hover {
   text-decoration: underline;
 }
+/* line 831, ../scss/style.scss */
+.footer__link--fb {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/facebook-f.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+  font-size: 0;
+}
+/* line 841, ../scss/style.scss */
+.footer__link--tw {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+  font-size: 0;
+}
+/* line 851, ../scss/style.scss */
+.footer__link--gp {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/google-plus-g.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+  font-size: 0;
+}
+/* line 861, ../scss/style.scss */
+.footer__link--yt {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/youtube.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 10px;
+  font-size: 0;
+}
+/* line 871, ../scss/style.scss */
+.footer__link--copy {
+  display: block;
+  margin-top: 60px;
+}
 
-/* line 824, ../scss/style.scss */
+/* line 879, ../scss/style.scss */
 .form-subscribe__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
@@ -805,7 +868,7 @@ body {
   padding-top: 61px;
   position: relative;
 }
-/* line 838, ../scss/style.scss */
+/* line 893, ../scss/style.scss */
 .form-subscribe__input {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -826,17 +889,17 @@ body {
   border-radius: 50px;
   position: relative;
 }
-/* line 857, ../scss/style.scss */
+/* line 912, ../scss/style.scss */
 .form-subscribe__input::placeholder {
   color: #ffffff;
 }
-/* line 861, ../scss/style.scss */
+/* line 916, ../scss/style.scss */
 .form-subscribe__wrapper {
   position: relative;
   display: inline-block;
   padding-bottom: 57px;
 }
-/* line 866, ../scss/style.scss */
+/* line 921, ../scss/style.scss */
 .form-subscribe__button {
   position: absolute;
   border: none;
@@ -858,7 +921,7 @@ body {
   top: 5px;
   right: 5px;
 }
-/* line 886, ../scss/style.scss */
+/* line 941, ../scss/style.scss */
 .form-subscribe__button:hover {
   cursor: pointer;
   background-color: #c0301d;

@@ -761,14 +761,14 @@ body {
 
 .footer {
 	margin-top: 143px;
-	&__wrapper{
+	&__wrapper {
 		min-height: 300px;
 		background-image: url(../img/header_1280x449.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
 		position: relative;
-		&::before{
+		&::before {
 			content: "";
 			display: block;
 			position: absolute;
@@ -779,8 +779,11 @@ body {
 		}
 	}
 	&__form {
-		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.9);
 		text-align: center;
+	}
+	&__links {
+		margin-top: 42px;
 	}
 	&__list-title {
 		font-family: 'Montserrat', sans-serif;
@@ -792,18 +795,27 @@ body {
 		letter-spacing: normal;
 		text-align: left;
 		color: #ffffff;
+		margin: 0;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		display: inline-block;
 	}
-	&__list{
+	&__list {
 		margin: 0;
 		padding: 0;
+		margin-top: 25px;
+		padding-bottom: 64px;
 	}
-	&__item{
+	&__item {
 		margin: 0;
 		padding: 0;
 		list-style: none;
+		&--social {
+			display: inline-block;
+			vertical-align: top;
+		}
 	}
-	&__link{
-		font-family: 'Montserrat', sans-serif;		
+	&__link {
+		font-family: 'Montserrat', sans-serif;
 		font-size: 14px;
 		font-weight: normal;
 		font-style: normal;
@@ -813,14 +825,57 @@ body {
 		text-align: left;
 		color: #c0bebc;
 		text-decoration: none;
-		&:hover{
+		&:hover {
 			text-decoration: underline;
+		}
+		&--fb {
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-image: url(../img/facebook-f.svg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-right: 10px;
+			font-size: 0;
+		}
+		&--tw{
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-image: url(../img/twitter.svg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-right: 10px;
+			font-size: 0;
+		}
+		&--gp{
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-image: url(../img/google-plus-g.svg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-right: 10px;
+			font-size: 0;
+		}
+		&--yt{
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-image: url(../img/youtube.svg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-right: 10px;
+			font-size: 0;
+		}
+		&--copy {
+			display: block;
+			margin-top: 60px;
 		}
 	}
 }
 
 .form-subscribe {
-	
 	&__title {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 24px;
