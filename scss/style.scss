@@ -682,7 +682,162 @@ body {
 	width: 100px;
 	border: solid 2px #9dacad;
 	border-radius: 50%;
+	position: relative;
 	&:hover {
 		border: solid 2px #1baf5d;
+	}
+	&:hover .icon__img {
+		fill: #1baf5d;
+	}
+	&__img {
+		fill: #9dacad;
+		height: 50px;
+		width: 50px;
+		position: absolute;
+		top: 22.5px;
+		left: 22.5px;
+	}
+}
+
+.reality {
+	margin-top: 38px;
+	&__title {
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.25;
+		letter-spacing: normal;
+		text-align: center;
+		color: #1baf5d;
+	}
+	&__topic {
+		margin-top: 43px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.71;
+		letter-spacing: normal;
+		text-align: left;
+		color: #566375;
+		padding-left: 95px;
+		position: relative;
+		&--1::before {
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 62px;
+			height: 62px;
+			background-image: url(../img/bolt.svg);
+			background-size: 32px 32px;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-color: #1db05e;
+			border-radius: 50%;
+		}
+		&--2::before {
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 62px;
+			height: 62px;
+			background-image: url(../img/leaf.svg);
+			background-size: 32px 32px;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-color: #1db05e;
+			border-radius: 50%;
+		}
+	}
+}
+
+.footer {
+	margin-top: 143px;
+	&__form {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		text-align: center;
+		&-wrapper {
+			min-height: 300px;
+			background-image: url(../img/footer_800x313.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+		}
+	}
+}
+
+.form-subscribe {
+	&__title {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.25;
+		letter-spacing: normal;
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
+		padding-top: 61px;
+	}
+	&__input {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.67;
+		letter-spacing: normal;
+		text-align: left;
+		color: #ffffff;
+		background-color: rgba(255, 255, 255, 0.1);
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		background-image: url(../img/mail.svg);
+		background-repeat: no-repeat;
+		background-size: 18px 15px;
+		background-position: 30px center;
+		padding: 10px 276px 10px 69px;
+		border-radius: 50px;
+		position: relative;
+		&::placeholder {
+			color: #ffffff;
+		}
+	}
+	&__wrapper{
+		position: relative;
+		display: inline-block;
+	}
+	&__button {
+		position: absolute;
+		border: none;
+		background-color: #e94e38;
+		box-shadow: 0px 2px 0 0 #c1412e;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.25;
+		letter-spacing: normal;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+		text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
+		padding: 12px 20px;
+		border-radius: 40px;
+		top: 5px;
+		right: 5px;
+		&:hover{
+			cursor: pointer;
+			background-color: #c0301d;
+		}
 	}
 }
