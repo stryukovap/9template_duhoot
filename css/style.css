@@ -726,20 +726,71 @@ body {
   margin-top: 143px;
 }
 /* line 764, ../scss/style.scss */
+.footer__wrapper {
+  min-height: 300px;
+  background-image: url(../img/header_1280x449.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+/* line 771, ../scss/style.scss */
+.footer__wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background-color: #000000;
+}
+/* line 781, ../scss/style.scss */
 .footer__form {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
 }
-/* line 767, ../scss/style.scss */
-.footer__form-wrapper {
-  min-height: 300px;
-  background-image: url(../img/footer_800x313.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+/* line 785, ../scss/style.scss */
+.footer__list-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+/* line 796, ../scss/style.scss */
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+/* line 800, ../scss/style.scss */
+.footer__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 805, ../scss/style.scss */
+.footer__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c0bebc;
+  text-decoration: none;
+}
+/* line 816, ../scss/style.scss */
+.footer__link:hover {
+  text-decoration: underline;
 }
 
-/* line 778, ../scss/style.scss */
+/* line 824, ../scss/style.scss */
 .form-subscribe__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
@@ -752,8 +803,9 @@ body {
   color: #ffffff;
   text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
   padding-top: 61px;
+  position: relative;
 }
-/* line 791, ../scss/style.scss */
+/* line 838, ../scss/style.scss */
 .form-subscribe__input {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -774,16 +826,17 @@ body {
   border-radius: 50px;
   position: relative;
 }
-/* line 810, ../scss/style.scss */
+/* line 857, ../scss/style.scss */
 .form-subscribe__input::placeholder {
   color: #ffffff;
 }
-/* line 814, ../scss/style.scss */
+/* line 861, ../scss/style.scss */
 .form-subscribe__wrapper {
   position: relative;
   display: inline-block;
+  padding-bottom: 57px;
 }
-/* line 818, ../scss/style.scss */
+/* line 866, ../scss/style.scss */
 .form-subscribe__button {
   position: absolute;
   border: none;
@@ -805,7 +858,7 @@ body {
   top: 5px;
   right: 5px;
 }
-/* line 838, ../scss/style.scss */
+/* line 886, ../scss/style.scss */
 .form-subscribe__button:hover {
   cursor: pointer;
   background-color: #c0301d;
