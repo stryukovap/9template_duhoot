@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" -->
 	<!-- crossorigin="anonymous"> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Duhoot</title>
@@ -15,6 +16,35 @@
 
 <body>
 	<header>
+		<div class="container">
+			<!-- <div class="row col-12"> -->
+			<div class="header__row">
+				<div class="header__logo col-md-2"></div>
+				<nav class="header__nav nav col-md-7">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#" class="nav__link">Reality</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Living</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">EduCation</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Entertainment</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">Mobility</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__search col-1"></div>
+				<div class="header__userform col-md-2">LOGIN</div>
+			</div>
+		</div>
+
+
 		<!-- <div class="header-wrapper">
 			<img class="logo__img" src="img/logo.svg" alt="Logo">
 			<nav class="main-nav">
@@ -52,6 +82,19 @@
 			<!-- <form action="#" class="form-search">
 				<h2 class="form-search__title">What are you looking for?</h2>
 				<div class="form-search__wrapper">
+					<select class="js-example-basic-single select2 form-search__select form-search__select--country" name="#" id="#">
+						<option value="Dubai">Dubai</option>
+					</select>
+					<select class="js-example-basic-single select2 form-search__select form-search__select--target" name="#" id="##">
+						<option value="Dubai">Education</option>
+					</select>
+				</div>
+				<input class="form-search__description" type="text" name="form-search__description" id="description" placeholder="Keyword, name, date, ...">
+				<button class="form-search__button form-search__button--submit" type="submit">Search</button>
+			</form> -->
+			<form action="#" class="form-search">
+				<h2 class="form-search__title">What are you looking for?</h2>
+				<div class="form-search__wrapper">
 					<select class="form-search__select form-search__select--country" name="#" id="#">
 						<option value="Dubai">Dubai</option>
 					</select>
@@ -61,7 +104,7 @@
 				</div>
 				<input class="form-search__description" type="text" name="form-search__description" id="description" placeholder="Keyword, name, date, ...">
 				<button class="form-search__button form-search__button--submit" type="submit">Search</button>
-			</form> -->
+			</form>
 		</div>
 	</header>
 	<main>
@@ -461,6 +504,14 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script>
+        // In your Javascript (external .js resource or <script> tag)
+        $(document).ready(function () {
+            $('.js-example-basic-single').select2();
+        });
+    </script>
 </body>
 
 </html>
