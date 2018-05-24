@@ -23,7 +23,7 @@ body {
 		background-color: #e94e38;
 	}
 	&__search{
-		background-size: contain;
+		background-size: 23px 23px;
 		background-image: url(../img/search.svg);
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -35,7 +35,7 @@ body {
 		margin: 0;
 		padding: 0;
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
 		align-items: center;
 	}
 	&__item {
@@ -51,6 +51,9 @@ body {
 		font-size: 14px;
 		line-height: 24px;
 		font-weight: 500;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		display: inline-block;
 		&:hover {
 			color: #e94e38;
 		}
