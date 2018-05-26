@@ -51,7 +51,7 @@
 		<div class="form__wrapper">
 			<form action="#" class="form-search container">
 				<h2 class="form-search__title">What are you looking for?</h2>
-				
+
 				<div class="form-search__wrapper col-6">
 					<div class="col-6 form-search__select form-search__select--country">
 						<select class="js-single-s1" name="#" id="#">
@@ -80,26 +80,64 @@
 		</div>
 	</header>
 	<main>
-		<!-- <div class="filter col-12">
-			<div class="filter-links col-12 col-md-4">
-				<a href="#" class="filter__link filter__link--active">Recommended</a>
-				<a href="#" class="filter__link">latest</a>
-				<a href="#" class="filter__link">Highlights</a>
+		<div class="filter__wrapper">
+			<div class="container">
+				<div class="filter">
+					<ul class="filter__list col-12 col-md-4">
+						<li class="filter__item">
+							<a href="#" class="filter__link filter__link--active">Recommended</a>
+						</li>
+						<li class="filter__item">
+							<a href="#" class="filter__link">latest</a>
+						</li>
+						<li class="filter__item">
+							<a href="#" class="filter__link">Highlights</a>
+						</li>
+					</ul>
+					<div class="filter__country col-12 col-md-4">
+						<div class="filter__select col-6">
+							<select class="js-single-s3" name="1" id="1">
+								<option value="Dubai">Dubai</option>
+								<option value="Australia">Australia</option>
+								<option value="Sri Lanka">Sri Lanka</option>
+								<option value="Newzeland">Newzeland</option>
+								<option value="Pakistan">Pakistan</option>
+							</select>
+						</div>
+						<button class="filter__button col-5">Hide map</button>
+					</div>
+					<ul class="filter__list col-12 col-md-4">
+						<h3 class="filter__title">Filter:</h3>
+						<li class="filter__item">
+							<input class="filter__input filter__input--1" type="checkbox" name="house" id="house">
+							<label for="house" class="filter__label filter__label--1">
+							</label>
+						</li>
+						<li class="filter__item">
+							<input class="filter__input filter__input--2" type="checkbox" name="girl" id="girl">
+							<label for="girl" class="filter__label filter__label--2">
+							</label>
+						</li>
+						<li class="filter__item">
+							<input class="filter__input filter__input--3" type="checkbox" name="cap" id="cap">
+							<label for="cap" class="filter__label filter__label--3">
+							</label>
+						</li>
+						<li class="filter__item">
+							<input class="filter__input filter__input--4" type="checkbox" name="note" id="note">
+							<label for="note" class="filter__label filter__label--4">
+							</label>
+						</li>
+						<li class="filter__item">
+							<input class="filter__input filter__input--5" type="checkbox" name="bus" id="bus">
+							<label for="bus" class="filter__label filter__label--5">
+							</label>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div class="filter-country col-12 col-md-4">
-				<select name="1" id="1" class="filter-country__select">
-					<option value="Dubai">Dubai</option>
-				</select>
-				<button class="filter-select__button">Hide map</button>
-			</div>
-			<div class="filter-target col-12 col-md-4">
-				<span class="filter-target__img">1</span>
-				<span class="filter-target__img">2</span>
-				<span class="filter-target__img">3</span>
-				<span class="filter-target__img">4</span>
-				<span class="filter-target__img">5</span>
-			</div>
-		</div> -->
+		</div>
+
 		<div class="cards col-12">
 			<div class="row container justify-content-center">
 				<div class="col-sm-12 col-md-6 col-xl-3">
@@ -337,7 +375,6 @@
 			</div>
 			<div class="icon icon--3">
 				<svg class="icon__img icon__img--3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.96 16.39">
-					<title>kep</title>
 					<path class="cls-1" d="M907.83,1139.93a1,1,0,0,1-.4-.08l-11.2-4.88a1,1,0,0,1,0-1.83l11.2-4.88a1,1,0,0,1,.8,0l11.2,4.88a1,1,0,0,1,0,1.83l-11.2,4.88a1,1,0,0,1-.4.08Zm-8.7-5.88,8.7,3.79,8.7-3.79-8.7-3.79-8.7,3.79Z"
 					    transform="translate(-895.62 -1128.17)" />
 					<path class="cls-1" d="M907.83,1144.56a15.66,15.66,0,0,1-8.77-2.73,1,1,0,0,1-.44-.83v-5.33a1,1,0,1,1,2,0v4.79a13.45,13.45,0,0,0,14.42,0v-4.79a1,1,0,0,1,2,0V1141a1,1,0,0,1-.44.83,15.66,15.66,0,0,1-8.77,2.73Z"
@@ -483,11 +520,14 @@
 		// In your Javascript (external .js resource or <script> tag)
 		$(document).ready(function () {
 			$('.js-single-s1').select2({
-                dropdownCssClass: 'myselect-dropdown-s1'
-            });
+				dropdownCssClass: 'myselect-dropdown-s1'
+			});
 			$('.js-single-s2').select2({
-                dropdownCssClass: 'myselect-dropdown-s2'
-            });
+				dropdownCssClass: 'myselect-dropdown-s2'
+			});
+			$('.js-single-s3').select2({
+				dropdownCssClass: 'myselect-dropdown-s3'
+			});
 		});
 	</script>
 </body>
