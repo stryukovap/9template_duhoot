@@ -63,38 +63,38 @@ body {
 
 .wr1 {
 	background-color: #ffffff;
-	flex-grow: 2;
-	// @media screen and (max-width: 1024px) {
+	flex-grow: 2; // @media screen and (max-width: 1024px) {
 	// 	display: none;
 	// }
 }
 
 .wr2 {
 	background-color: #e94e38;
-	flex-grow: 2;
-	// @media screen and (max-width: 1024px) {
+	flex-grow: 2; // @media screen and (max-width: 1024px) {
 	// 	display: none;
 	// }
 }
 
 .wr3 {
-	padding-right: 0;
+	padding-right: 0; // padding-left: 0;	
 	background-color: #ffffff;
 }
 
 .header {
 	&__row {
 		display: flex;
+		justify-content: flex-end;
 		padding-right: 0;
 		padding-left: 0;
-		// @media screen and (max-width: 1024px) {
-		// 	flex-direction: column;
-		// }
+		align-items: stretch;
 	}
 	&__logo {
 		background-image: url(../img/logo.svg);
 		background-repeat: no-repeat;
-		background-position: center left;
+		background-position: center center;
+		background-size: 154px 45px;
+		width: 154px;
+		margin-right: auto; // height: 45px;
 	}
 	&__userform {
 		background-color: #e94e38;
@@ -121,6 +121,7 @@ body {
 		background-position: 0 center;
 		text-transform: uppercase;
 		text-decoration: none;
+		padding-right: 15px;
 		&:hover {
 			text-decoration: underline;
 		}
@@ -132,6 +133,7 @@ body {
 		background-position: center center;
 		background-color: #e2dee0;
 		cursor: pointer;
+		width: 74px;
 	}
 }
 
@@ -439,7 +441,7 @@ body {
 		letter-spacing: normal;
 		text-align: left;
 		color: #ffffff;
-		padding: 10px 46px 10px 19px;
+		padding: 10px 20px 10px 19px;
 		position: relative;
 		&:hover {
 			background-color: #96caad;
@@ -1201,6 +1203,10 @@ body {
 		background-color: #e2dee0;
 		top: 49px;
 		right: -85px;
+		@media screen and (max-width:992px) {
+			right: -70px;
+			
+		}
 	}
 	&--2::before {
 		content: "";
@@ -1211,6 +1217,10 @@ body {
 		background-color: #e2dee0;
 		top: 49px;
 		right: -85px;
+		@media screen and (max-width:992px) {
+			right: -70px;
+			
+		}
 	}
 	&--3::before {
 		content: "";
@@ -1221,6 +1231,10 @@ body {
 		background-color: #e2dee0;
 		top: 49px;
 		right: -85px;
+		@media screen and (max-width:992px) {
+			right: -70px;
+			
+		}
 	}
 	&--4::before {
 		content: "";
@@ -1231,6 +1245,10 @@ body {
 		background-color: #e2dee0;
 		top: 49px;
 		right: -85px;
+		@media screen and (max-width:992px) {
+			right: -70px;
+			
+		}
 	}
 }
 
