@@ -20,7 +20,7 @@
 			<div class="container wr3">
 				<div class="header__row">
 					<div class="header__logo"></div>
-					<nav class="header__nav nav">
+					<nav class="header__nav nav nav--mobile">
 						<ul class="nav__list">
 							<li class="nav__item">
 								<a href="#" class="nav__link">Reality</a>
@@ -39,6 +39,7 @@
 							</li>
 						</ul>
 					</nav>
+					<div class="header__menu"><a href="#" class="header__link">MENU</a></div>
 					<div class="header__search"></div>
 					<div class="header__userform">
 						<a href="#" class="header__login">LOGIN</a>
@@ -50,8 +51,8 @@
 		<div class="form__wrapper">
 			<form action="#" class="form-search container">
 				<h2 class="form-search__title">What are you looking for?</h2>
-				<div class="form-search__wrapper col-6">
-					<div class="col-6 form-search__select form-search__select--country">
+				<div class="form-search__wrapper col-md-6 col-sm-12">
+					<div class="col-md-12 col-lg-6 form-search__select form-search__select--country">
 						<select class="js-single-s1" name="#" id="#">
 							<option value="Dubai">Dubai</option>
 							<option value="Australia">Australia</option>
@@ -60,7 +61,7 @@
 							<option value="Pakistan">Pakistan</option>
 						</select>
 					</div>
-					<div class="col-6 form-search__select form-search__select--target">
+					<div class="col-md-12 col-lg-6 form-search__select form-search__select--target">
 						<select class="js-single-s2" name="#" id="##">
 							<option value="Education">Education</option>
 							<option value="Tempor">Tempor</option>
@@ -70,7 +71,7 @@
 						</select>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 col-sm-12">
 					<input class="form-search__description" type="text" name="form-search__description" id="description" placeholder="Keyword, name, date, ...">
 				</div>
 				<button class="form-search__button form-search__button--submit" type="submit">Search</button>
@@ -81,7 +82,7 @@
 		<div class="filter__wrapper">
 			<div class="container">
 				<div class="filter">
-					<ul class="filter__list col-12 col-md-4">
+					<ul class="filter__list col-sm-12 col-md-8 col-lg-4">
 						<li class="filter__item">
 							<a href="#" class="filter__link filter__link--active">Recommended</a>
 						</li>
@@ -92,7 +93,7 @@
 							<a href="#" class="filter__link">Highlights</a>
 						</li>
 					</ul>
-					<div class="filter__country col-12 col-md-4">
+					<div class="filter__country col-sm-12 col-md-8 col-lg-4">
 						<div class="filter__select col-6">
 							<select class="js-single-s3" name="1" id="1">
 								<option value="Dubai">Dubai</option>
@@ -104,7 +105,7 @@
 						</div>
 						<button class="filter__button col-5">Hide map</button>
 					</div>
-					<ul class="filter__list col-12 col-md-4">
+					<ul class="filter__list col-sm-12 col-md-8 col-lg-4">
 						<h3 class="filter__title">Filter:</h3>
 						<li class="filter__item">
 							<input class="filter__input filter__input--1" type="checkbox" name="house" id="house">
