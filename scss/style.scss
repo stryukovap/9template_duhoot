@@ -440,7 +440,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 992px) {
 		flex-direction: column;
 	}
 	&__wrapper {
@@ -533,7 +533,7 @@ body {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 992px) {
 			margin-top: 15px;
 			margin-bottom: 10px;
 		}

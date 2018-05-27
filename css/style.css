@@ -485,7 +485,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   /* line 439, ../scss/style.scss */
   .filter {
     flex-direction: column;
@@ -594,7 +594,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   /* line 530, ../scss/style.scss */
   .filter__list {
     margin-top: 15px;
