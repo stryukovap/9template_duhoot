@@ -272,7 +272,7 @@ body {
 		font-stretch: normal;
 		line-height: 1.6;
 		letter-spacing: normal;
-		text-align: left;
+		text-align: center;
 		color: #ffffff;
 		text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
 		margin-top: 58px;
@@ -1057,6 +1057,10 @@ body {
 	&__img-description {
 		padding-left: 98px;
 		padding-top: 75px;
+		@media screen and (max-width:576px) {
+			padding-top: 15px;
+			padding-left: 65px;
+								}
 	}
 	&__location {
 		text-transform: uppercase;
@@ -1071,6 +1075,7 @@ body {
 		color: #ffffff;
 		text-shadow: 0px 1px 1px rgba(0, 0, 1, 0.15);
 		padding-right: 8px;
+		display: block;
 		&-raiting {
 			font-size: 12px;
 		}
