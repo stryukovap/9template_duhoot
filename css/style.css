@@ -84,7 +84,7 @@ body {
 /* line 79, ../scss/style.scss */
 .header__row {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-right: 0;
   padding-left: 0;
   align-items: stretch;
@@ -148,7 +148,7 @@ body {
 @media screen and (max-width: 575px) {
   /* line 123, ../scss/style.scss */
   .header__userform {
-    width: 100%;
+    width: 48%;
     margin-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
