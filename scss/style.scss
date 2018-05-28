@@ -71,7 +71,7 @@ body {
 }
 
 .wr3 {
-	padding-right: 0; 	
+	padding-right: 0;
 	background-color: #ffffff;
 }
 
@@ -82,6 +82,7 @@ body {
 		padding-right: 0;
 		padding-left: 0;
 		align-items: stretch;
+		position: relative;
 		@media screen and (max-width: 767px) {
 			flex-wrap: wrap;
 		}
@@ -102,18 +103,18 @@ body {
 		}
 	}
 	&__link {
-			text-transform: uppercase;
-			text-decoration: none;
-			font-family: 'Montserrat', sans-serif;
-			color: #96a6a7;
-			font-size: 14px;
-			line-height: 24px;
-			font-weight: 500; 
-			padding: 25px;
-			display: inline-block;
-			&:hover {
-				color: #e94e38; 
-			}
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		color: #96a6a7;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+		padding: 25px;
+		display: inline-block;
+		&:hover {
+			color: #e94e38;
+		}
 	}
 	&__nav {
 		@media screen and (max-width: 990px) {
@@ -199,6 +200,48 @@ body {
 		display: inline-block;
 		&:hover {
 			color: #e94e38;
+		}
+	}
+}
+
+.nav--mobile {
+	display: block;
+	position: absolute;
+	top: 50px;
+	right: 15px;
+	z-index: 5;
+	.nav {
+		&__list {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border-radius: 5px;
+			overflow: hidden;
+			border: 2px solid #96a6a7;
+		}
+		&__item {
+			margin: 0;
+			list-style: none; // margin-right: 20px;
+			width: 100%;
+			border: 1px solid #96a6a7;
+		}
+		&__link {
+			background-color: #fff;
+			padding: 0;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-family: 'Montserrat', sans-serif;
+			color: #96a6a7;
+			font-size: 14px; // line-height: 24px;
+			font-weight: 500;
+			text-align: center;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			padding-left: 15px;
+			padding-right: 15px;
+			display: block;
 		}
 	}
 }
@@ -342,7 +385,7 @@ body {
 			color: #ffffff;
 		}
 		@media screen and (max-width: 767px) {
-		font-size: 16px;
+			font-size: 16px;
 		}
 	}
 	&__button {
@@ -416,6 +459,7 @@ body {
 		}
 	}
 }
+
 .select2-dropdown.myselect-dropdown-s3.select2-dropdown--below {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
@@ -445,6 +489,7 @@ body {
 .select2-container--default .myselect-dropdown-s2 .select2-results__option--highlighted[aria-selected] {
 	background-color: #e94e38;
 }
+
 .select2-container--default .myselect-dropdown-s3 .select2-results__option--highlighted[aria-selected] {
 	background-color: #e94e38;
 }
